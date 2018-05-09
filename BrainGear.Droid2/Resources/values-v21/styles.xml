@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="Theme.Main" parent="android:Theme.Material.Light">
+    <!-- Your customizations go here -->
+    
+  </style>
+  <style name="Theme.Login" parent="android:Theme.Material">
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:statusBarColor">@color/qut_blue_dark</item>
+  </style>
+</resources>

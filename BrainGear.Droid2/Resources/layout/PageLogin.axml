@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/relativeLayout1"
+    p1:padding="10dp"
+    p1:background="@color/primary">
+    <Button
+        style="Login.Button"
+        p1:id="@+id/MyButton"
+        p1:text="@string/Login"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:gravity="center"
+        p1:layout_alignParentBottom="true" />
+    <EditText
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/userid"
+        p1:hint="@string/UserID"
+        p1:layout_centerInParent="true"
+        p1:singleLine="true"
+        p1:inputType="text"
+        p1:imeOptions="actionNext" />
+    <EditText
+        p1:inputType="textPassword"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/userid"
+        p1:id="@+id/password"
+        p1:hint="@string/Password"
+        p1:imeOptions="actionDone" />
+    <ImageView
+        p1:src="@drawable/icon"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/imageView"
+        p1:layout_alignParentTop="true" />
+</RelativeLayout>

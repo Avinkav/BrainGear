@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/navHome"
+        android:checked="true"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/nav_home" />
+    <item
+        android:id="@+id/navVideos"
+        android:icon="@drawable/ic_theaters_black_24dp"
+        android:title="@string/nav_videos" />
+    <item
+        android:id="@+id/navWiki"
+        android:icon="@drawable/ic_wiki_black_24dp"
+        android:title="@string/nav_wiki" />
+  </group>
+  <group android:checkableBehavior="single">
+    <item
+      android:id="@+id/navLeaderboard"
+      android:icon="@drawable/ic_123_black_24dp"
+      android:title="@string/nav_leaderboard" />
+    <item
+      android:id="@+id/navProfile"
+      android:icon="@drawable/ic_person_black"
+      android:title="@string/nav_profile" />
+  </group>
+  <group android:checkableBehavior="single">
+    <item
+     android:id="@+id/navSettings"
+     android:icon="@drawable/ic_settings_black_24dp" 
+     android:title="@string/nav_settings" />
+    <item
+      android:id="@+id/navAbout"
+      android:icon="@drawable/ic_info_black_24dp"
+      android:title="@string/nav_about" />
+  </group>
+</menu>
